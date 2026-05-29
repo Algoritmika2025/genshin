@@ -1,0 +1,83 @@
+body {
+    font-family: sans-serif;
+    background-color: black;
+    font-size: 32px;
+}
+
+.da {
+    margin-right: 700px;
+    margin-top: 18px;
+}
+
+.hutao {
+    color: #FF6868;
+}
+
+.ei {
+    color: #9854EB;
+}
+
+footer{
+    background-color: #CC6060;
+    padding: 10px;
+}
+
+footer p {
+    background-color: #FBEDD7;
+    padding: 10px;
+    font-family: JejuMyeongjo;
+    text-align: center;
+    font-size: 32px;
+}
+
+.personazhi {
+    background-color: #00C9F6;
+}
+
+.nav-link {
+    font-size: 24px;
+    color: white;
+    text-decoration: none;
+    background-color: #5F99A6;
+    padding: 9px;
+    border-radius: 13px;
+    font-family: JejuMyeongjo;
+}
+
+nav {
+    padding: 25px 100px 25px 95px;
+    justify-content: space-between;
+    display: flex;
+}
+
+.nav-link1 {
+    font-size: 24px;
+    color: white;
+    text-decoration: none;
+    background-color: #00C9F6;
+    padding: 9px;
+    border-radius: 13px;
+    font-family: JejuMyeongjo;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+    font-size: 100px;
+    margin-top: 43px;
+    margin-bottom: 43px;
+    font-family: Kaisei Tokumin;
+    margin-left: 40px;
+}
+
+header {
+    padding: 15px;
+    margin-bottom: 20px;
+    display: flex;
+    background-color: #4A0000;
+    align-items: center;
+}
+
+.nav-link:hover{
+    color: bisque;
+}
