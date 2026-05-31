@@ -4,26 +4,15 @@ body {
 }
 
 header {
-    justify-content: space-between;
     padding: 15px;
     margin-bottom: 20px;
     display: flex;
-    background-color: #0A1230;
+    background-color: #4A0000;
     align-items: center;
 }
 
-.button {
-    background-color: #596597;
-    color: black;
-    text-decoration: none;
-    padding: 15px;
-    font-size: 24px;
-    border-radius: 10px;
-}
 
 nav {
-    border-top: 5px solid #283051;
-    border-bottom: 5px solid #666F97;
     padding: 25px 100px 25px 95px;
     justify-content: space-between;
     display: flex;
@@ -33,56 +22,53 @@ nav {
     font-size: 24px;
     color: white;
     text-decoration: none;
+    background-color: #5F99A6;
+    padding: 9px;
+    border-radius: 13px;
+    font-family: JejuMyeongjo;
 }
 
 h1 {
     text-align: center;
     color: white;
-    font-size: 36px;
+    font-size: 100px;
     margin-top: 43px;
     margin-bottom: 43px;
+    font-family: Kaisei Tokumin;
+    margin-left: 40px;
 }
 
 p {
     font-size: 24px;
-}
-
-.info {
-    flex-wrap: wrap;
-    width: 1100px;
-    margin: 0px;
-    display: flex;
-}
-
-article {
-    background-color: white;
-    padding: 30px;
-    width: 400px;
-    margin: 20px;
-    flex-wrap: wrap;
-}
-
-.article-but {
-    text-decoration: none;
-    background-color: #283051;
     color: white;
-    font-size: 24px;
     text-align: center;
-    padding: 10px 75px 10px 75px;
-    display: block;
 }
 
-footer {
-    background-color: #0A1230;
-    padding: 35px;
-    display: flex;
+.nav-link1 {
+    font-size: 24px;
+    color: white;
+    text-decoration: none;
+    background-color: #00C9F6;
+    padding: 9px;
+    border-radius: 13px;
+    font-family: JejuMyeongjo;
 }
 
-footer a {
-    margin-right: 65px;
+footer{
+    background-color: #CC6060;
+    padding: 10px;
 }
 
 footer p {
-    font-size: 24px;
-    color: white;
+    background-color: #FBEDD7;
+    padding: 10px;
+    font-family: JejuMyeongjo;
+    text-align: center;
+    font-size: 32px;
+    color: black;
+}
+
+
+.nav-link:hover{
+    color: bisque;
 }
